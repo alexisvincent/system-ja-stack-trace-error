@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+    <title>Stack Trace Error</title>
+   <!-- works -->
+    <!--<script src="jspm_packages/system.js"></script>-->
+   <!-- with defer doesn't work -->
+    <script defer src="jspm_packages/system.js"></script>
+    <script defer src="config.js"></script>
+</head>
+<body>
+    <script type="text/javascript" charset="utf-8">
+    window.onload = function() {
+		    System.import('test.js')
+    }
+    </script>
+</body>
+</html>
